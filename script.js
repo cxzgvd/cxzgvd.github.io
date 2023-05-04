@@ -18,8 +18,6 @@ $(document).ready(function() {
 
             if (command === 'linkedin') {
                 $('.output').append('<p><a href="https://www.linkedin.com/in/filip-slendakowski/">https://www.linkedin.com/in/filip-slendakowski/</a></p>');
-            } else if (command === 'youtube') {
-                $('.output').append('<p><a href="https://www.youtube.com/user/your-youtube-channel/">https://www.youtube.com/user/your-youtube-channel/</a></p>');
             } else if (command === 'clear') {
                 $('.output').html('');
             } else if (command === 'help') {
