@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Linux Terminal Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body data-password="<?php echo isset($_COOKIE['password123']) ? json_encode($_COOKIE['password123']) : ''; ?>">
+  <div class="terminal">
+    <div class="output">
+      <p>Witaj w moim portfolio</p>
+      <p>Wpisz komendę 'help' aby wyświetlić dostępne komendy</p>
+    </div>
+    <div class="terminal-input-wrapper">
+      <span>$</span>
+      <input type="text" class="terminal-input">
+      <input type="password" class="password-input" placeholder="Podaj hasło">
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
