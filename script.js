@@ -21,7 +21,7 @@ $(document).ready(function() {
             } else if (command === 'clear') {
                 $('.output').html('');
             } else if (command === 'help') {
-                $('.output').append('<p>Dostępne komendy: whoami, skills, linkedin, youtube, github, clear, help </p>');
+                $('.output').append('<p>Dostępne komendy: whoami, skills, linkedin, github, clear, help </p>');
             }  else if (command === 'github') {
                 $('.output').append('<p><a href="https://github.com/cxzgvd">https://github.com/cxzgvd</a></p>');
             } else if (command === 'whoami') {
